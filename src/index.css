@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Inter var', sans-serif;
+  background: linear-gradient(155deg, #ffffff 20%, #a5a3a3);
+  color: #101015;
+}
+
+@font-face {
+  font-family: 'NeoLatina';
+  src: local('NeoLatina'), url('./fonts/neo-latina.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'BigerOver';
+  src: local('BigerOver'), url('./fonts/BigerOver.ttf') format('truetype');
+  font-weight: normal;
+}
